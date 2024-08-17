@@ -11,7 +11,7 @@ def send_massage(loc, checklist):
     previous = loc[6]
     base_url = "https://api.telegram.org/7293544363:AAHpbMO7PhVOtZ-Dj8ncrhUPALoWjR7kDmI/sendMessage"
     parameters = {
-        "chat_id": "@4519432130",
+        "chat_id": "@economics_calendar",
         "text": f"""
 {event}📅
 
